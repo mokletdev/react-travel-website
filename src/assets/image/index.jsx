@@ -3,6 +3,11 @@ import CalculatedWeather from "./CalculatedWeather.png";
 import BestFlights from "./BestFlights.png";
 import LocalEvents from "./LocalEvents.png";
 import Customization from "./Customization.png";
+import Rome from "./Rome.jpg";
+import London from "./London.jpg";
+import Europe from "./Europe.jpg";
+import RomeIcon from "./RomeIcon.jpg";
+import Trip from "./Trip.jpg";
 
 const image = {
   Main,
@@ -10,6 +15,11 @@ const image = {
   BestFlights,
   LocalEvents,
   Customization,
+  Rome,
+  London,
+  Europe,
+  Trip,
+  RomeIcon,
 };
 
 export default image;

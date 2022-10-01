@@ -1,6 +1,8 @@
-import Home from "./Fragments/Main";
 import Navbar from "./components/elements/Navbar";
+import Home from "./Fragments/Main";
 import Services from "./Fragments/Services";
+import Destinations from "./Fragments/Destinations";
+import Steps from "./Fragments/Steps";
 
 function App() {
   return (
@@ -8,8 +10,8 @@ function App() {
       <Navbar />
       <Home />
       <Services />
-      <Home />
-      <Home />
+      <Destinations />
+      <Steps />
       <Home />
       <Home />
     </div>
