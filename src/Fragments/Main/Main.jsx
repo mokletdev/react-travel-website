@@ -2,13 +2,19 @@ import React from "react";
 import { PlayIcon } from "@heroicons/react/24/solid";
 import Decor from "../../assets/svg/Decor";
 import Flare from "../../assets/svg/Flare";
+import PlaneTrail from "../../assets/svg/PlaneTrail2";
 import Section from "../../components/elements/Section";
+import IMAGE from "../../assets/image";
 
 export default function Home() {
   const _decorations = (
     <>
       <Decor className="absolute h-[120vh] right-0 bottom-0" />
       <Flare className="absolute -left-[30rem] h-[100vh] w-[100vh] -top-40 z-0" />
+
+      {/* <div className="absolute right-1/3 transform translate-x-1/2 translate-y-1/2 bottom-[40%] h-[36rem] ">
+        <img src={IMAGE.Main} alt="" className="h-full" />
+      </div> */}
     </>
   );
 
@@ -17,7 +23,7 @@ export default function Home() {
       className="min-h-screen text-white flex items-center "
       decorations={_decorations}
     >
-      <div className="z-10">
+      <div className="z-10 w-fit">
         <h5 className="uppercase font-bold text-gray-800">
           Best Destinations around the world
         </h5>
@@ -42,6 +48,10 @@ export default function Home() {
           </button>
         </div>
       </div>
+      <div className="absolute h-[40rem] -right-24 top-[15vh]">
+        <img src={IMAGE.Main} alt="" className="h-full" />
+      </div>
+      <PlaneTrail className="absolute rotate-180 -left-0 z-0 top-[65vh] w-60" />
     </Section>
   );
 }

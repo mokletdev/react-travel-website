@@ -9,9 +9,12 @@ export default function Section({
   ...props
 }) {
   return (
-    <section className={"relative  " + baseClass} id={id} name={id}>
+    <section className={"relative " + baseClass} id={id} name={id}>
       {decorations}
-      <div className={"mx-auto max-w-screen-2xl px-24 " + className} {...props}>
+      <div
+        className={"mx-auto max-w-screen-2xl px-24 relative " + className}
+        {...props}
+      >
         {children}
       </div>
     </section>
