@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  @apply overscroll-none font-sans text-base font-medium text-gray-800;
+  @apply overscroll-none font-sans text-base text-gray-800;
 }
 
 h1 {

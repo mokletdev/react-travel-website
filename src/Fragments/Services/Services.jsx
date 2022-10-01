@@ -43,7 +43,7 @@ export default function Home() {
       <CornerDecor className="absolute top-24 right-24" />
       <p className="label">CATEGORY</p>
       <h2 className="font-serif text-gray-800">We Offer Best Services</h2>
-      <div className="flex justify-center w-full gap-4 pt-16">
+      <div className="flex justify-center w-full gap-10 pt-16">
         {OEFFEREDSERVICES.map((v, i) => (
           <Card key={i} data={v} />
         ))}
@@ -54,7 +54,7 @@ export default function Home() {
 
 export function Card({ data }) {
   return (
-    <div className="hover:bg-white defaultTransitionAll hover:drop-shadow-2xl rounded-3xl text-white hover:text-gray-800 text-center w-72 px-12 pb-12 pt-4 transform hover:-translate-y-1 cursor-pointer">
+    <div className="hover:bg-white defaultTransitionAll hover:drop-shadow-2xl rounded-3xl text-white hover:text-gray-800 text-center w-60 px-6 pb-12 pt-4 transform hover:-translate-y-1 cursor-pointer">
       <img src={data.image} alt={data.name} className="w-36 mx-auto" />
       <p className="font-semibold label text-gray-800">{data.name}</p>
       <p>{data.desc}</p>
