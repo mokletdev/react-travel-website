@@ -59,6 +59,7 @@ export default function Home() {
         </div>
       </div>
       <div className="w-full flex items-center relative">
+        <div className="z-0 w-80 h-80 bg-[#59B1E6] rounded-full blur-3xl left-52  absolute top-1/4 opacity-50" />
         <div className="bg-white rounded-3xl w-80 p-4 drop-shadow-xl transform defaultTransitionAll hover:scale-105 cursor-pointer z-10 absolute left-24">
           <div className="rounded-2xl overflow-hidden">
             <img src={IMAGE.Trip} alt="trip w-full " />
