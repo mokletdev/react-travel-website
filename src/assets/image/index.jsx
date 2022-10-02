@@ -8,6 +8,7 @@ import London from "./London.jpg";
 import Europe from "./Europe.jpg";
 import RomeIcon from "./RomeIcon.jpg";
 import Trip from "./Trip.jpg";
+import Profile from "./Profile.jpg";
 
 const image = {
   Main,
@@ -20,6 +21,7 @@ const image = {
   Europe,
   Trip,
   RomeIcon,
+  Profile,
 };
 
 export default image;

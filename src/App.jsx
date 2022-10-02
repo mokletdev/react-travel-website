@@ -3,6 +3,7 @@ import Home from "./Fragments/Main";
 import Services from "./Fragments/Services";
 import Destinations from "./Fragments/Destinations";
 import Steps from "./Fragments/Steps";
+import Testimonial from "./Fragments/Testimonial";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Services />
       <Destinations />
       <Steps />
-      <Home />
+      <Testimonial />
       <Home />
     </div>
   );
